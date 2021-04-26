@@ -43,7 +43,7 @@ namespace demo_web_app
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hellow World");
+                await context.Response.WriteAsync("Hello World");
             });
 
             app.UseHttpsRedirection();
